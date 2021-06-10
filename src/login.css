@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(40, 36, 95);
+}
+.group-welcome {
+    left: 38%;
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-button,
+.group-input,
+.titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input#nome {
+    border: groove;
+}
+
+input{
+    border-radius:9%;
+    margin: 20px 0px;
+    width: 320px;
+    height: 20px;
+    border-color: #c2c2c2;
+}
+button,button>a{
+    color:white;
+    background-color: #633db9 ;
+    border-radius:10%;
+    width: 20%;
+    height: 2em;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+button:hover,button>a:hover{
+    color:white;
+    background-color: #633db9de ;
+    border-radius:10%;
+    width: 20%;
+    height: 2em;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.hidden{
+    display:none;
+}
+
+.ml-1{
+    margin-left: 5px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}

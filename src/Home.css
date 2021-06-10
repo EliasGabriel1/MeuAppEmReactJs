@@ -1,0 +1,53 @@
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+}
+
+button.like {
+    color: white;
+    background-color: #633db9;
+    border-radius: 10%;
+    width: 8em;
+    height: 2em;
+    cursor: pointer;
+    margin: 0.4em 0;
+}
+
+div.feed {
+    margin: 0.3125em 9.375em;
+}
+
+div.img {
+    background-color: black;
+}
+
+div.img-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dados {
+    margin-left: 13.75em;
+    margin-right: 13.125em;
+}
+hr{
+    margin: 0em  0em 2em 0em;
+}
+
+.DivCarregar{
+    justify-content: center;
+    display: flex;
+    margin: 0.5em 0em ;
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
+}
