@@ -51,9 +51,9 @@ pra API feita por mim no node consumir da api da nasa e enfim enviar o primeiro 
 Próximos passos:
 
 Como fora ignorante, passando a entender mais sobre api em node com sitemas embarcados, não pensei em fazer uma tabela apenas
-para as fotos que a pessoa curtiu, separando esse dados das fotos que possui x curtidas, sendo assim, tendo a relação de que 
+para as fotos que a pessoa curtiu, separando esse dados das fotos que possui {numero} curtidas, sendo assim, tendo a relação de que 
 {pessoa x curtiu foto y}(relação um pra um) e {foto y possui tantas curtidas}(relação um pra todos).
-Fora feito duas telas no figma, para próximos passos, como a melhora do wireframe e trazer um UI e UX para mais perto do projeto, 
+Fora feito três telas no figma, para próximos passos, como a melhora do wireframe e trazer um UI e UX para mais perto do projeto, 
 levando em consideração adicionar o framework Material UI.
 Para a api e o react, por mais que a usuabilidade existe no projeto, toda a estrutura fora pensado em projeto pequeno, então
 para torná-la alcançaveis e poder crescer cada vez mais, organizar e em vez de fazer os routes no file app.js fazer um roate.js
